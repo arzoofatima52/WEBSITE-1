@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Caters</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="reg">
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-4" href="#">Star Caters</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+                <li class="nav-item ms-5">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+
+                <li class="nav-item ms-4">
+                <a class="nav-link active" aria-current="page" href="reg.html">Registration</a>
+              </li>
+              
+              <li class="nav-item ms-4">
+                <a class="nav-link active" aria-current="page" href="food.html">Food</a>
+              </li>
+
+              <li class="nav-item ms-4 ">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+
+              <li class="nav-item ms-4">
+                <a class="nav-link active" aria-current="page" href="review.html">Reviews</a>
+              </li>
+
+
+          
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+    <section class="form">
+        <h1>
+            Registration Form</h1>
+        <div class="formmm">
+
+            <form class="form" id="form">
+                <div class="form">
+                    <label for="username">Name</label>
+                    <input type="text" id="username" placeholder="ENTER YOUR FULL NAME" />
+                    <i class="fa fa-smile-o" style="padding-top: 15px; padding-right: 15px"></i>
+                    <i class="fa fa-frown-o" style="padding-top: 15px; padding-right: 15px"></i>
+                    <p class="errorMessage"></p>
+                </div>
+
+                <div class="form">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="ENTER YOUR EMAIL" />
+                    <i class="fa fa-smile-o" style="padding-top: 15px; padding-right: 15px"></i>
+                    <i class="fa fa-frown-o" style="padding-top: 15px; padding-right: 15px"></i>
+                    <p class="errorMessage"></p>
+                </div>
+                <div class="form">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="ENTER PASSWORD" />
+                    <i class="fa fa-smile-o" style="padding-top: 15px; padding-right: 15px"></i>
+                    <i class="fa fa-frown-o" style="padding-top: 15px; padding-right: 15px"></i>
+                    <p class="errorMessage"></p>
+                </div>
+
+                <div class="form">
+                    <label for="password2">Confirm Password </label>
+                    <input type="password" id="password2" placeholder="CONFIRM PASSWORD" />
+                    <i class="fa fa-smile-o" style="padding-top: 15px; padding-right: 15px"></i>
+                    <i class="fa fa-frown-o" style="padding-top: 15px; padding-right: 15px"></i>
+                    <p class="errorMessage"> </p>
+                </div>
+
+                <button >Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
